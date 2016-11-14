@@ -1,3 +1,7 @@
 module.exports = {
-    extends: require('eslint-config-airbnb-base')
+    extends: require.resolve('eslint-config-airbnb-base'),
+    rules: {
+      'comma-dangle': 'off',
+      indent: ['error', 4]
+    }
 };
