@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config-goodway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoodwayGroup/eslint-config-goodway.git"
+  },
+  "author": "Julian Lannigan <julian.lannigan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GoodwayGroup/eslint-config-goodway/issues"
+  },
+  "homepage": "https://github.com/GoodwayGroup/eslint-config-goodway#readme",
+  "dependencies": {
+    "eslint": "^3.10.0",
+    "eslint-config-airbnb-base": "^10.0.1",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
