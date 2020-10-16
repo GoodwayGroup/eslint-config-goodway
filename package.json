@@ -21,7 +21,7 @@
     "auto-changelog": "1.16.2"
   },
   "dependencies": {
-    "eslint": "6.6.0",
+    "eslint": "6.8.0",
     "eslint-config-airbnb-base": "14.0.0",
     "eslint-plugin-import": "git+ssh://git@github.com/benmosher/eslint-plugin-import.git#112a0bf442e52b25cd7029a9905df2508e191ac1"
   }
