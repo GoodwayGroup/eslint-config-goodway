@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "version": "auto-changelog -p -l false --template keepachangelog && git add CHANGELOG.md"
+    "version": "git-chglog -o CHANGELOG.md --next-tag v$(grep '\\\"version\\\":' package.json | grep -v git-chglog | awk -F '\\\"' '{print $4}') && git add CHANGELOG.md"
   },
   "repository": {
     "type": "git",
@@ -17,9 +17,6 @@
     "url": "https://github.com/GoodwayGroup/eslint-config-goodway/issues"
   },
   "homepage": "https://github.com/GoodwayGroup/eslint-config-goodway#readme",
-  "devDependencies": {
-    "auto-changelog": "2.2.1"
-  },
   "dependencies": {
     "eslint": "7.22.0",
     "eslint-config-airbnb-base": "14.2.1",
