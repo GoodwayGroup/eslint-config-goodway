@@ -2,6 +2,16 @@
 ## [Unreleased]
 
 
+<a name="v3.2.1"></a>
+## [v3.2.1] - 2021-05-13
+### Bug Fixes
+- **deps:** update all non-major dependencies ([#24](https://github.com/GoodwayGroup/eslint-config-goodway/issues/24))
+- **deps:** update dependency eslint to v7.23.0 ([#23](https://github.com/GoodwayGroup/eslint-config-goodway/issues/23))
+
+### Chore
+- **deps:** update dependency hosted-git-info to 2.8.9 [security] ([#25](https://github.com/GoodwayGroup/eslint-config-goodway/issues/25))
+
+
 <a name="v3.2.0"></a>
 ## [v3.2.0] - 2021-03-19
 ### Bug Fixes
@@ -10,6 +20,7 @@
 ### Chore
 - port to git-chglog and deprecate auto-changelog
 - add config dotfiles
+- **release:** v3.2.0
 
 ### Features
 - **cd:** add push button release via github actions
@@ -72,7 +83,8 @@
 <a name="v1.1.0"></a>
 ## v1.1.0 - 2017-04-04
 
-[Unreleased]: https://github.com/GoodwayGroup/eslint-config-goodway/compare/v3.2.0...HEAD
+[Unreleased]: https://github.com/GoodwayGroup/eslint-config-goodway/compare/v3.2.1...HEAD
+[v3.2.1]: https://github.com/GoodwayGroup/eslint-config-goodway/compare/v3.2.0...v3.2.1
 [v3.2.0]: https://github.com/GoodwayGroup/eslint-config-goodway/compare/v3.1.2...v3.2.0
 [v3.1.2]: https://github.com/GoodwayGroup/eslint-config-goodway/compare/v3.1.1...v3.1.2
 [v3.1.1]: https://github.com/GoodwayGroup/eslint-config-goodway/compare/v3.1.0...v3.1.1
