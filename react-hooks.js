@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
-    'airbnb',
-    'airbnb/hooks',
+    'eslint-config-airbnb',
+    'eslint-config-airbnb/rules/react-hooks',
   ].map(require.resolve),
   overrides: [
     {
