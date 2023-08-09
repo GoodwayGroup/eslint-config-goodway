@@ -1,5 +1,6 @@
 module.exports = {
   extends: [
+    'eslint-plugin-storybook/dist/configs/recommended',
     'eslint-config-airbnb',
     'eslint-config-airbnb/rules/react-hooks',
   ].map(require.resolve),
@@ -18,8 +19,14 @@ module.exports = {
   globals: {
     globalThis: false // means it is not writeable
   },
+  env: {
+    es6: true,
+    browser: true,
+    jest: true,
+    node: true
+  },
   parserOptions: {
-    ecmaVersion: 2020,
+    ecmaVersion: 'latest',
     sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
@@ -33,7 +40,7 @@ module.exports = {
     'import/resolver': {
       node: {
         paths: ['src'],
-        extensions:['*.jsx', '*.js', '*.tsx', '*.ts']
+        extensions:['.jsx', '.js', '.tsx', '.ts']
       }
     }
   },
@@ -41,10 +48,10 @@ module.exports = {
     'class-methods-use-this': 'error',
     'import/extensions': ['error', 'ignorePackages', {
       mjs: 'never',
-      js: 'ignorePackages',
-      ts: 'ignorePackages',
-      jsx: 'ignorePackages',
-      tsx: 'ignorePackages'
+      js: 'never',
+      ts: 'never',
+      jsx: 'never',
+      tsx: 'never'
     }],
     'import/prefer-default-export': 'off',
     'max-len': ['error', {
@@ -57,19 +64,24 @@ module.exports = {
       ignoreTemplateLiterals: true,
       ignoreTrailingComments: true,
     }],
-    'no-restricted-syntax': ['error', 'ForInStatement', 'LabeledStatement', 'WithStatement'],
     'no-unused-vars': ['error', {
-      destructuredArrayIgnorePattern: '^_',
+      vars: 'all',
+      args: 'after-used',
       ignoreRestSiblings: true,
+      destructuredArrayIgnorePattern: '^_',
     }],
+    'react/function-component-definition': 'off',
+    'react/jsx-boolean-value': 'off',
+    'react/jsx-props-no-spreading': 'off',
     'react/jsx-uses-react': 'error',
     'react/jsx-uses-vars': 'error',
     'react/prop-types': ['error'],
+    'react/react-in-jsx-scope': 'off', // not needed for react 17+
     'react/require-default-props': ['warn', {
       classes: 'defaultProps',
       functions: 'defaultArguments'
     }],
+    'react/self-closing-comp': 'off',
     'react-hooks/exhaustive-deps': 'warn',
-    strict: [2, 'never']
   }
 };
