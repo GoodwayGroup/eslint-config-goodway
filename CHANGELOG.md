@@ -2,6 +2,16 @@
 ## [Unreleased]
 
 
+<a name="v3.3.0"></a>
+## [v3.3.0] - 2023-09-01
+### Bug Fixes
+- **deps:** update dependency eslint-plugin-import to v2.23.2 ([#27](https://github.com/GoodwayGroup/eslint-config-goodway/issues/27))
+- **deps:** update dependency eslint-plugin-import to v2.23.0 ([#26](https://github.com/GoodwayGroup/eslint-config-goodway/issues/26))
+
+### Features
+- SDG-6 Standardize eslint ([#46](https://github.com/GoodwayGroup/eslint-config-goodway/issues/46))
+
+
 <a name="v3.2.1"></a>
 ## [v3.2.1] - 2021-05-13
 ### Bug Fixes
@@ -10,6 +20,7 @@
 
 ### Chore
 - **deps:** update dependency hosted-git-info to 2.8.9 [security] ([#25](https://github.com/GoodwayGroup/eslint-config-goodway/issues/25))
+- **release:** v3.2.1
 
 
 <a name="v3.2.0"></a>
@@ -83,7 +94,8 @@
 <a name="v1.1.0"></a>
 ## v1.1.0 - 2017-04-04
 
-[Unreleased]: https://github.com/GoodwayGroup/eslint-config-goodway/compare/v3.2.1...HEAD
+[Unreleased]: https://github.com/GoodwayGroup/eslint-config-goodway/compare/v3.3.0...HEAD
+[v3.3.0]: https://github.com/GoodwayGroup/eslint-config-goodway/compare/v3.2.1...v3.3.0
 [v3.2.1]: https://github.com/GoodwayGroup/eslint-config-goodway/compare/v3.2.0...v3.2.1
 [v3.2.0]: https://github.com/GoodwayGroup/eslint-config-goodway/compare/v3.1.2...v3.2.0
 [v3.1.2]: https://github.com/GoodwayGroup/eslint-config-goodway/compare/v3.1.1...v3.1.2
