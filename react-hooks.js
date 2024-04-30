@@ -77,6 +77,8 @@ module.exports = {
       ignoreRestSiblings: true,
       destructuredArrayIgnorePattern: '^_',
     }],
+    'react/react-in-jsx-scope': 'off',
+    'react/jsx-uses-react': 'off',
     'react/function-component-definition': 'off',
     'react/jsx-boolean-value': 'off',
     'react/jsx-props-no-spreading': 'warn',
