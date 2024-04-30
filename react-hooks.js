@@ -9,7 +9,6 @@ module.exports = {
     require.resolve('eslint-config-airbnb'),
     require.resolve('eslint-config-airbnb/rules/react-hooks'),
     'plugin:storybook/recommended',
-    'plugin:react/jsx-runtime',
   ],
   overrides: [
     {
