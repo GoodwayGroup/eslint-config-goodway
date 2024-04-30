@@ -2,10 +2,19 @@
 ## [Unreleased]
 
 
+<a name="v3.3.2"></a>
+## [v3.3.2] - 2024-04-30
+### Bug Fixes
+- MS-52 updating JSX settings for React 17+ ([#56](https://github.com/GoodwayGroup/eslint-config-goodway/issues/56))
+
+
 <a name="v3.3.1"></a>
 ## [v3.3.1] - 2024-04-30
 ### Bug Fixes
 - Resolve plugin version conflict. All rules covered by airbnb. ([#55](https://github.com/GoodwayGroup/eslint-config-goodway/issues/55))
+
+### Chore
+- **release:** v3.3.1
 
 
 <a name="v3.3.0"></a>
@@ -103,7 +112,8 @@
 <a name="v1.1.0"></a>
 ## v1.1.0 - 2017-04-04
 
-[Unreleased]: https://github.com/GoodwayGroup/eslint-config-goodway/compare/v3.3.1...HEAD
+[Unreleased]: https://github.com/GoodwayGroup/eslint-config-goodway/compare/v3.3.2...HEAD
+[v3.3.2]: https://github.com/GoodwayGroup/eslint-config-goodway/compare/v3.3.1...v3.3.2
 [v3.3.1]: https://github.com/GoodwayGroup/eslint-config-goodway/compare/v3.3.0...v3.3.1
 [v3.3.0]: https://github.com/GoodwayGroup/eslint-config-goodway/compare/v3.2.1...v3.3.0
 [v3.2.1]: https://github.com/GoodwayGroup/eslint-config-goodway/compare/v3.2.0...v3.2.1
