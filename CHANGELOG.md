@@ -2,11 +2,20 @@
 ## [Unreleased]
 
 
+<a name="v3.3.1"></a>
+## [v3.3.1] - 2024-04-30
+### Bug Fixes
+- Resolve plugin version conflict. All rules covered by airbnb. ([#55](https://github.com/GoodwayGroup/eslint-config-goodway/issues/55))
+
+
 <a name="v3.3.0"></a>
 ## [v3.3.0] - 2023-09-01
 ### Bug Fixes
 - **deps:** update dependency eslint-plugin-import to v2.23.2 ([#27](https://github.com/GoodwayGroup/eslint-config-goodway/issues/27))
 - **deps:** update dependency eslint-plugin-import to v2.23.0 ([#26](https://github.com/GoodwayGroup/eslint-config-goodway/issues/26))
+
+### Chore
+- **release:** v3.3.0
 
 ### Features
 - SDG-6 Standardize eslint ([#46](https://github.com/GoodwayGroup/eslint-config-goodway/issues/46))
@@ -94,7 +103,8 @@
 <a name="v1.1.0"></a>
 ## v1.1.0 - 2017-04-04
 
-[Unreleased]: https://github.com/GoodwayGroup/eslint-config-goodway/compare/v3.3.0...HEAD
+[Unreleased]: https://github.com/GoodwayGroup/eslint-config-goodway/compare/v3.3.1...HEAD
+[v3.3.1]: https://github.com/GoodwayGroup/eslint-config-goodway/compare/v3.3.0...v3.3.1
 [v3.3.0]: https://github.com/GoodwayGroup/eslint-config-goodway/compare/v3.2.1...v3.3.0
 [v3.2.1]: https://github.com/GoodwayGroup/eslint-config-goodway/compare/v3.2.0...v3.2.1
 [v3.2.0]: https://github.com/GoodwayGroup/eslint-config-goodway/compare/v3.1.2...v3.2.0
